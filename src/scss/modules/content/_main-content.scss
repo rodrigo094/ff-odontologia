@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');
+.content {
+	font-family: 'Lato', sans-serif;
+	background: #f5f5f5;
+    &__head {
+        padding: 1em;
+        font-family: 'Lato', sans-serif;
+        background: url(./../../images/background02.jpg) no-repeat center;
+        &--title {
+        	display: inline-block;
+	    	text-align: center;
+	    	width: 100%;
+        }
+    }
+    &__middle {
+    	display: inline-block;
+    	text-align: center;
+    	width: 100%;
+    	&--title {
+    		font-size: 20px;
+		    margin: 30px 0;
+		    text-align: center;
+    	}
+    	&--instagram {
+    		ul {
+    			display: flex;
+    			justify-content: space-around;
+    			width: 100%;
+    			.slick-next {
+    				background: url(./../../images/next-slick-arrow.png) no-repeat center;
+    				width: 40px;
+    				height: 50px;
+    				border: none;
+    				font-size: 0;
+    				margin-top: 5%;
+    				cursor: pointer;
+    			}
+    			.slick-prev {
+    				background: url(./../../images/prev-slick-arrow.png) no-repeat center;
+    				width: 40px;
+    				height: 50px;
+    				border: none;
+    				font-size: 0;
+    				margin-top: 5%;
+    				cursor: pointer;
+    			}
+    			.slick-list {
+    				width: 100%;
+    				height: auto;
+    				overflow: hidden;
+    				max-height: 350px;
+    				.slick-slide {
+    					display: inline-block;
+		    			li {
+		    				float: left;
+		    				display: inline-block;
+		    				width: 100%;
+		    				max-width: 350px;
+		    				max-height: 350px;
+		    				img {
+		    					height: auto;
+		    					max-width: 100%;
+		    				}
+		    			}
+    				}
+    			}
+    		}
+    	}
+    	.jarallax {
+		    position: relative;
+		    z-index: 0;
+		    width: 100%;
+		    height: 600px;
+		}
+		.jarallax > .jarallax-img {
+		    position: absolute;
+		    object-fit: cover;
+		    /* support for plugin https://github.com/bfred-it/object-fit-images */
+		    font-family: 'object-fit: cover;';
+		    top: 0;
+		    left: 0;
+		    width: 100%;
+		    height: 100%;
+		    z-index: -1;
+		}
+    }
+    &__bottom {
+    	display: inline-block;
+    	text-align: center;
+    	width: 100%;
+    	margin-top: 50px;
+    	&--title {
+    		font-size: 20px;
+		    margin: 30px 0;
+    	}
+    	&--map {
+    		iframe {
+			    width: 60%;
+			    height: auto;
+			    min-height: 600px;
+    		}
+    	}
+    }
+    &__contact {
+    	display: inline-block;
+    	text-align: center;
+    	width: 100%;
+    	margin: 30px 0 0;
+		background: #4682B4;
+    	&--title {
+    		font-size: 20px;
+		    margin: 30px 0;
+    	}
+    	&--form {
+    		display: inline-block;
+    		width: 100%;
+    		margin-bottom: 40px;
+    		form {
+    			display: flex;
+    			justify-content: center;
+    			flex-direction: column;
+    			input {
+    				border: 1px solid #b5b5b5;
+    				width: 200px;
+    				height: 25px;
+				    margin: 5px 0;
+    			}
+    			select {
+    				border: 1px solid #b5b5b5;
+    				width: 200px;
+    				height: 25px;
+				    margin: 5px 0;
+    			}
+    			textarea {
+    				border: 1px solid #b5b5b5;
+    				width: 200px;
+    			}
+    		}
+    	}
+    }
+}
