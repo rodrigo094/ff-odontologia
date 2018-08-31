@@ -13,11 +13,11 @@ function jarallaxPlay() {
 
 function slickActive() {
 	$(".content__middle--instagram ul").slick({
-	  slidesToShow: 3,
+	  slidesToShow: 1,
 	  slidesToScroll: 1,
 	  infinite: true,
 	  autoplay: true,
-	  autoplaySpeed: 2000,
+	  autoplaySpeed: 5000
 	});
 };
 
