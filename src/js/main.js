@@ -17,7 +17,10 @@ function slickActive() {
 	  slidesToScroll: 1,
 	  infinite: true,
 	  autoplay: true,
-	  autoplaySpeed: 5000
+	  arrows: false,
+	  speed: 500,
+	  fade: true,
+	  cssEase: 'linear'
 	});
 };
 
