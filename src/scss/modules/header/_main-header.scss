@@ -4,7 +4,39 @@ header {
 	width: 100%;
     height: auto;
     flex-direction: column;
+    * {
+    	transition: all .1s cubic-bezier(0.7, 0, 0.3, 1);
+    }
 	.header {
+		&__top {
+			display: flex;
+			justify-content: space-between;
+			&--left {
+				width: 30%;
+				height: 20px;
+				background: #0bb6be;
+			}
+			&--center {
+				width: 40%;
+				height: 20px;
+				background: #1f91cc;
+			}
+			&--button {
+				width: 30%;
+			    text-align: center;
+		    	padding: 15px 50px;
+		    	background: #07bc83;
+		    	a {
+		    		color: #fff;
+		    		font-size: 20px;
+		    		white-space: nowrap;
+		    		font-family: 'Open Sans', sans-serif;
+		    		&:hover {
+		    			color: #000;
+		    		}
+		    	}
+			}
+		}
 		&__band {
 			display: flex;
 			width: 100%;
