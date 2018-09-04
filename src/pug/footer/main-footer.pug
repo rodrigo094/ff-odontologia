@@ -1,11 +1,20 @@
 <footer>
-	<div class="footer__phone">
-		<span class="footer__phone--number">11 3255-5246</span><br>
-		<span class="footer__phone--text">AGENDE SUA AVALIAÇÃO</span>
-	</div>
-	<div class="footer__logo">
-		<a href="/">
-			<img src=".././images/logo.png"/>
-		</a>
+	<div class="footer__contact" id="contact">
+		<div class="footer__contact--form">
+		<form action="action/enviar_form.php" method="POST">
+		<div class="footer__contact--form-name">
+		<input type="text" name="nome" class="form-control form_new" placeholder="Nome"> 
+		</div>
+		<div class="footer__contact--form-email">
+		<input type="text" name="email" class="form-control form_new" placeholder="Email"> 
+		</div>
+		<div class="footer__contact--form-message">
+		<textarea placeholder="Mensagem" class="form-control form_new" name="mensagem" rows="5"></textarea>
+		</div>
+		<div class="footer__contact--form-button">
+		<button class="btn btn_new">Enviar</button>
+		</div>
+		</form>
+		</div>
 	</div>
 </footer>

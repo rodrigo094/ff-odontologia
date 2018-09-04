@@ -11,6 +11,12 @@ function jarallaxPlay() {
 	});
 };
 
+function jarallaxPlayBottom() {
+	$('.content__parallax .jarallax').jarallax({
+	    speed: 0.2
+	});
+};
+
 function slickActive() {
 	$(".content__middle--instagram ul").slick({
 	  slidesToShow: 1,
@@ -27,4 +33,5 @@ function slickActive() {
 $(document).ready(function(){
 	jarallaxPlay();
 	slickActive();
+	jarallaxPlayBottom();
 });
