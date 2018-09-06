@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');
+body {
+    overflow-x: hidden;
+}
 .content {
     font-family: 'Lato', sans-serif;
     transition: all 1s cubic-bezier(0.7, 0, 0.3, 1);
@@ -41,7 +44,7 @@
                 width: 60%;
                 padding: 0 60px;
                 color: #696969;
-                font-size: 15px;
+                font-size: 17px;
                 &:first-child {
                     border-right: 1px solid #696969;
                 }
@@ -178,7 +181,7 @@
 		}
     }
     &__information {
-        margin-top: 10%;
+        margin-top: 178px;
         display: flex;
         justify-content: space-around;
         height: 200px;
@@ -430,7 +433,7 @@
         }
     }
     &__client {
-        margin-top: 41%;
+        margin-top: 300px;
         background: #116089;
         height: 400px;
         &--title {
@@ -467,7 +470,7 @@
                 span {
                     font-style: italic;
                     &.name{
-                        font-style: none;
+                        font-style: normal;
                         padding: 20px 0;
                     }
                 }

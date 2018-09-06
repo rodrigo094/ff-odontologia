@@ -1,13 +1,72 @@
 footer {
 	display: flex;
 	width: 100%;
-	background: #f2f2f2;
+    background: #c1c1c1;
 	height: 300px;
 	align-items: center;
-	justify-content: flex-end;
+	justify-content: space-between;
 	border-top: 5px solid #fff;
 	text-align: center;
 	.footer {
+		&__share {
+			margin-left: 5%;
+		    width: 250px;
+		    &--title {
+		    	display: block;
+		    	text-align: center;
+		    	font-family: 'Lato', sans-serif;
+		    	padding-bottom: 20px;
+		    }
+		    &--icons {
+	    	    display: flex;
+				justify-content: space-evenly;
+			    &-facebook {
+		    	    width: 25px;
+				    height: 25px;
+				    display: inline-block;
+				    a {
+				    	display: inline-block;
+				    	width: 100%;
+				    	height: 100%;
+				    	img {
+				    		display: inline-block;
+				    		width: 100%;
+				    		height: auto;
+				    	}
+				    }
+			    }
+			    &-instagram {
+		    	    width: 25px;
+				    height: 25px;
+				    display: inline-block;
+				    a {
+				    	display: inline-block;
+				    	width: 100%;
+				    	height: 100%;
+				    	img {
+				    		display: inline-block;
+				    		width: 100%;
+				    		height: auto;
+				    	}
+				    }
+			    }
+			    &-twitter {
+		    	    width: 25px;
+				    height: 25px;
+				    display: inline-block;
+				    a {
+				    	display: inline-block;
+				    	width: 100%;
+				    	height: 100%;
+				    	img {
+				    		display: inline-block;
+				    		width: 100%;
+				    		height: auto;
+				    	}
+				    }	
+			    }
+			}
+		}
 		&__contact {
 		    margin-right: 5%;
 			&--form {
