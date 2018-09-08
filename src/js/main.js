@@ -30,8 +30,15 @@ function slickActive() {
 	});
 };
 
+function openMenuMobile(){
+	$('.header__menu-mobile--hamburger').click(function(){
+		$('.header__pos--menu-mobile--items').addClass('active');
+	});
+};
+
 $(document).ready(function(){
 	jarallaxPlay();
 	slickActive();
 	jarallaxPlayBottom();
+	openMenuMobile();
 });
