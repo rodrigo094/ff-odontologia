@@ -33,6 +33,16 @@ function slickActive() {
 function openMenuMobile(){
 	$('.header__menu-mobile--hamburger').click(function(){
 		$('.header__pos--menu-mobile--items').addClass('active');
+		$('.header__pos--menu-mobile--close').addClass('active');
+		$('.header__pos--menu-mobile--background').addClass('active');
+	});
+};
+
+function closeMenuMobile(){
+	$('.header__pos--menu-mobile--close').click(function(){
+		$('.header__pos--menu-mobile--items').removeClass('active');
+		$('.header__pos--menu-mobile--background').removeClass('active');
+		$('.header__pos--menu-mobile--close').removeClass('active');
 	});
 };
 
@@ -41,4 +51,5 @@ $(document).ready(function(){
 	slickActive();
 	jarallaxPlayBottom();
 	openMenuMobile();
+	closeMenuMobile();
 });
