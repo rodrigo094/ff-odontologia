@@ -5,7 +5,6 @@
 				<li><img src=".././images/1.jpg" /></li>
 				<li><img src=".././images/2.jpg" /></li>
 				<li><img src=".././images/3.jpg" /></li>
-				<li><img src=".././images/4.jpg" /></li>
 			</ul>
 		</div>
 		<div class="content__middle--blocks">
@@ -43,6 +42,7 @@
 		</div>
 		<div class="content__services--text">
 			<div class="block-one">
+				<span class="icon"></span>
 				<span class="title-services">Exames de Rotina</span>
 				<ul>
 					<span>Aparelhos ortodônticos</span> <span>Implantes</span> <span>Clareamento Dental</span>
@@ -53,6 +53,7 @@
 				<span>INVISALIGN é a alternativa quase invisível aos aparelhos ortodônticos convencionais, porque ao invés de movimentar os dentes por meio de peças coladas  aos dentes do paciente, o INVISALIGN utiliza jogos de moldeiras  sequenciais removíveis, chamadas de alinhadores, que são feitos sob medida para cada etapa do tratamento. Estes alinhadores  são praticamente invisíveis e reposicionam seus dentes passo a passo para conseguir o sorriso que você deseja.</span>
 			</div>
 			<div class="block-three">
+				<span class="icon"></span>
 				<span class="title-services">Lente de Contato</span>
 				<span>As lentes de contato dentais são facetas ultrafinas de porcelana, que são aplicadas sobre a superfície do dente para recobrir manchas ou melhorar a forma de dentes desgastados, promovendo boa estética. ... Essas facetas podem alterar de forma impressionante o sorriso de uma pessoa e ajudam a melhorar sua autoconfiança.</span>
 			</div>
@@ -77,17 +78,39 @@
 		<div class="content__bottom--title">
 			<span>Fale conosco</span>
 		</div>
-		<div class="content__bottom--address">
-			<span class="content__bottom--address-title">Nosso Endereço</span>
-			<span class="content__bottom--address-text">Rua Sergipe, 401 - Sala 102
-			Higienopolis - São Paulo/SP - CEP: 01243-906 - Tel: (11) 3255-5246</span>
+		<div class="content__bottom-top">
+			<div class="content__bottom-top--address">
+				<span class="content__bottom-top--address-title">Nosso Endereço</span>
+				<span class="content__bottom-top--address-text">Rua Sergipe, 401 - Sala 102
+				Higienopolis - São Paulo/SP - CEP: 01243-906 - Tel: (11) 3255-5246</span>
+			</div>
+			<div class="content__bottom-top--hours">
+				<span class="content__bottom-top--hours-title">Horários</span>
+				<span class="content__bottom-top--hours-text">Segunda a sexta das 08:00 ás 19:00</span>
+			</div>
 		</div>
-		<div class="content__bottom--hours">
-			<span class="content__bottom--hours-title">Horários</span>
-			<span class="content__bottom--hours-text">Segunda a sexta das 08:00 ás 19:00</span>
-		</div>
-		<div class="content__bottom--map">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.561674518541!2d-46.65992338555394!3d-23.54826266699258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5830ee13a491%3A0xae4cab9f5f112647!2sRua+Sergipe%2C+401+-+Consola%C3%A7%C3%A3o%2C+S%C3%A3o+Paulo+-+SP%2C+01243-001!5e0!3m2!1spt-BR!2sbr!4v1534710739491" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+		<div class="content__bottom-base">
+			<div class="content__bottom-base--map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.561674518541!2d-46.65992338555394!3d-23.54826266699258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5830ee13a491%3A0xae4cab9f5f112647!2sRua+Sergipe%2C+401+-+Consola%C3%A7%C3%A3o%2C+S%C3%A3o+Paulo+-+SP%2C+01243-001!5e0!3m2!1spt-BR!2sbr!4v1534710739491" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+			<div class="footer__contact" id="contact">
+				<div class="footer__contact--form">
+					<form action="action/enviar_form.php" method="POST">
+						<div class="footer__contact--form-name">
+							<input type="text" name="nome" class="form-control form_new" placeholder="Nome"> 
+						</div>
+						<div class="footer__contact--form-email">
+							<input type="text" name="email" class="form-control form_new" placeholder="Email"> 
+						</div>
+						<div class="footer__contact--form-message">
+							<textarea placeholder="Mensagem" class="form-control form_new" name="mensagem" rows="5"></textarea>
+						</div>
+						<div class="footer__contact--form-button">
+							<button class="btn btn_new">Enviar</button>
+						</div>
+					</form>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
