@@ -400,6 +400,7 @@ body {
                         padding-top: 20px;
                         font-size: 30px;
                         letter-spacing: 2px;
+                        font-weight: 600;
                         @media (max-width: 992px) {
                             font-size: 20px;
                         }
@@ -433,6 +434,7 @@ body {
                         padding-top: 20px;
                         font-size: 30px;
                         letter-spacing: 2px;
+                        font-weight: 600;
                         @media (max-width: 992px) {
                             font-size: 20px;
                         }
@@ -481,7 +483,7 @@ body {
                     justify-content: center;
                     align-items: center;
                     @media (max-width: 992px) {
-                        width: 50%;
+                        width: 80%;
                         margin: 20px 0;
                     }
                     a {
@@ -522,7 +524,7 @@ body {
                             width: 200px;
                             height: 100px;
                             display: inline-block;
-                            background-size: 200px;
+                            background-size: 150px;
                             @media (max-width: 992px) {
                                 background-size: 130px;
                             }
@@ -644,7 +646,7 @@ body {
             }
             &--address {
                 display: inline-block;
-                width: 50%;
+                width: 8;
                 margin-bottom: 50px;
                 @media (max-width: 992px) {
                     display: block;
@@ -653,6 +655,8 @@ body {
                 &-title {
                     font-size: 30px;
                     display: block;
+                    color: #1f91cc;
+                    font-weight: 600;
                     @media (max-width: 992px) {
                         font-size: 20px;
                     }
@@ -663,7 +667,7 @@ body {
                     text-align: center;
                     top: 20px;
                     position: relative;
-                    color: #a1a1a1;
+                    color: #1f91cc;
                     @media (max-width: 992px) {
                         font-size: 13px;
                     }
@@ -671,7 +675,7 @@ body {
             }
             &--hours {
                 display: inline-block;
-                width: 50%;
+                width: 8;
                 @media (max-width: 992px) {
                     width: 100%;
                     padding-bottom: 50px;
@@ -679,6 +683,8 @@ body {
                 &-title {
                     font-size: 30px;
                     display: block;
+                    color: #1f91cc;
+                    font-weight: 600;
                     @media (max-width: 992px) {
                         font-size: 20px;
                     }
@@ -689,7 +695,7 @@ body {
                     width: 50px;
                     white-space: pre-wrap;
                     text-align: center;
-                    color: #a1a1a1;
+                    color: #1f91cc;
                     @media (max-width: 992px) {
                         font-size: 13px;
                     }
@@ -738,6 +744,7 @@ body {
                             height: 30px;
                             &::placeholder {
                                 padding-left: 20px;
+                                font-family: 'Lato', sans-serif;
                             }
                             @media (max-width: 992px) {
                                 width: 80%;
@@ -750,6 +757,7 @@ body {
                             height: 100px;
                             &::placeholder {
                                 padding-left: 20px;
+                                font-family: 'Lato', sans-serif;
                             }
                             @media (max-width: 992px) {
                                 width: 80%;
@@ -760,11 +768,21 @@ body {
                         display: flex;
                         justify-content: flex-end;
                         cursor: pointer;
+                        @media (max-width: 992px) {
+                            justify-content: center;
+                        }
                         button {
                             padding: 5px 40px;
-                            background-color: #c5933c;
+                            background-color: #02b8bf;
                             cursor: pointer;
                             border: none;
+                            text-transform: uppercase;
+                            color: #fff;
+                            transition: linear .2s;
+                            &:hover {
+                                background-color: #fff;
+                                color: #02b8bf;
+                            }
                         }
                     }
                 }
