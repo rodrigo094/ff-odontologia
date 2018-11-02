@@ -40,12 +40,12 @@ $ymsgJorgeAlex = "<div style=\"width:100%;\">
 
 </div>";
 
-$ysendJorgeAlex = sendMail('faleconosco@nutrolog.com', $ymsgJorgeAlex);
+$ysendJorgeAlex = sendMail('rodrigo.oliveira260994@gmail.com', $ymsgJorgeAlex);
 
 if ($ysendJorgeAlex != true) {
-	$url = 'http://www.nutrolog.com?sucesso=false';
+	$url = 'http://www.ffodontologia.com?sucesso=false';
 } else {
-	$url = 'http://www.nutrolog.com?sucesso=true';
+	$url = 'http://www.ffodontologia.com?sucesso=true';
 }
 
 echo '<script type="text/javascript">
