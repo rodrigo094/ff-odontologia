@@ -60,7 +60,7 @@ body {
                 width: 100%;
                 flex-direction: column;
             }
-            span {
+            p {
                 width: 100%;
                 padding: 0 60px;
                 color: #696969;
@@ -725,8 +725,10 @@ body {
                         input {
                             width: 300px;
                             height: 30px;
+                            padding-left: 20px;
+                            -webkit-appearance: none;
+                            border-radius: 0;
                             &::placeholder {
-                                padding-left: 20px;
                             }
                             @media (max-width: 992px) {
                                 width: 80%;
@@ -738,8 +740,10 @@ body {
                         input {
                             width: 300px;
                             height: 30px;
+                            padding-left: 20px;
+                            -webkit-appearance: none;
+                            border-radius: 0;
                             &::placeholder {
-                                padding-left: 20px;
                                 font-family: 'Lato', sans-serif;
                             }
                             @media (max-width: 992px) {
@@ -751,8 +755,10 @@ body {
                         textarea {
                             width: 300px;
                             height: 100px;
+                            padding-left: 20px;
+                            -webkit-appearance: none;
+                            border-radius: 0;
                             &::placeholder {
-                                padding-left: 20px;
                                 font-family: 'Lato', sans-serif;
                             }
                             @media (max-width: 992px) {
@@ -775,6 +781,8 @@ body {
                             text-transform: uppercase;
                             color: #fff;
                             transition: linear .2s;
+                            -webkit-appearance: none;
+                            border-radius: 0;
                             &:hover {
                                 background-color: #fff;
                                 color: #02b8bf;

@@ -19,9 +19,9 @@ function sendMail($destino, $email)
 	$mail->Port = 587;
 	$mail->SMTPSecure = 'tls';
 	$mail->SMTPAuth = true;
-	$mail->Username = "rodrigo.eritel@gmail.com";
-	$mail->Password = "42018144DIIH";
-	$mail->setFrom('rodrigo.eritel@gmail.com', 'Contato - Site');
+	$mail->Username = "rodrigo.oliveira260994@gmail.com";
+	$mail->Password = "42018144Diih";
+	$mail->setFrom('rodrigo.oliveira260994@gmail.com', 'Contato - Site');
 	$mail->addAddress($destino, 'Assunto - Contato Site');
 	$mail->Subject = "Assunto - Contato Site";
 	$mail->Body = $email;
@@ -40,7 +40,7 @@ $ymsgJorgeAlex = "<div style=\"width:100%;\">
 
 </div>";
 
-$ysendJorgeAlex = sendMail('rodrigo.oliveira260994@gmail.com', $ymsgJorgeAlex);
+$ysendJorgeAlex = sendMail('rodrigo.eritel@gmail.com', $ymsgJorgeAlex);
 
 if ($ysendJorgeAlex != true) {
 	$url = 'http://www.ffodontologia.com?sucesso=false';
